@@ -8,10 +8,10 @@ body{
 
 .mountain_top{
     background-color: #dff4ff;
-    width: auto;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 30px;
+    padding-top: 5%;
+    width: auto;
 } 
 
 .mountain_top h1{
@@ -43,35 +43,28 @@ body{
 }
 
 .mountain_top .mountain{
-    width: 450px;
+    width: 55%;
     align-items: center;
     padding: 0 20%;
 }
 
-@media screen and (max-width: 600px){
-    .mountain_top{
-        padding: 3% 10%;
-        width: 100%;
-    }
 
-    .mountain_top .mountain{
-        width: 260px;
-    }
-}
 
 
 
 /*THE PROFILE ABOUT ME PART OF THE PAGE*/
 
 .profile_pic{
+    width: auto;
 }
 
 .profile_pic img{
     border-radius: 50%;
-    width: 240px; 
-    margin-top: 52px; 
-    margin-left: 42%;
-    margin-right: 42%;
+    width: 25%; 
+    margin-top: 10%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .profile_pic figcaption{
@@ -79,10 +72,18 @@ body{
     font-size: 30px;
     text-align: center;
     font-weight: bolder;
-    padding: 0 48.9%;
+    padding: 0 auto;
     color: #74c3df;
 }
 
 .profile_pic p{
     text-align: center;
     padding: 0 30%;
+}
+
+
+
+
+
+/*FOR MOBILE DEVICES*/
+
