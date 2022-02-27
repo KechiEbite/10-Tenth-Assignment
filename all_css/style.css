@@ -2,25 +2,28 @@ body{
     background-color: white;
     margin: 0;
 }
+
+/*THIS IS FOR THE TOP MOST PART OF THE HOMEPAGE*/
+
 .mountain_top{
     background-color: #dff4ff;
-    padding-left:200px;
-    padding-right: 200px;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 30px;
 } 
 
 .mountain_top h1{
     font-family: 'Sacramento', cursive;
     font-size: 60px;
-    padding: 0 250px;
     margin-bottom: 0;
     color: #74c3df;
+    text-align: center;
 }
 
 .mountain_top p{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    padding: 0 300px;
     font-weight: bolder;
     text-align: center;
     margin: 0;
@@ -41,6 +44,16 @@ body{
 .mountain_top .mountain{
     width: 450px;
     align-items: center;
-    padding: 0 160px;
+    padding: 0 20%;
 }
 
+@media screen and (max-width: 600px){
+    .mountain_top{
+        padding: 3% 10%;
+        width: 100%;
+    }
+
+    .mountain_top .mountain{
+        width: 260px;
+    }
+}
