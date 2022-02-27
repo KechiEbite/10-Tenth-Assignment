@@ -3,6 +3,7 @@ body{
     margin: 0;
 }
 
+
 /*THIS IS FOR THE TOP MOST PART OF THE HOMEPAGE*/
 
 .mountain_top{
@@ -57,3 +58,31 @@ body{
         width: 260px;
     }
 }
+
+
+
+/*THE PROFILE ABOUT ME PART OF THE PAGE*/
+
+.profile_pic{
+}
+
+.profile_pic img{
+    border-radius: 50%;
+    width: 240px; 
+    margin-top: 52px; 
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+.profile_pic figcaption{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0 48.9%;
+    color: #74c3df;
+}
+
+.profile_pic p{
+    text-align: center;
+    padding: 0 30%;
