@@ -44,7 +44,7 @@ body{
 
 .mountain_top .mountain{
     width: 55%;
-    align-items: center;
+    display: block;
     padding: 0 20%;
 }
 
