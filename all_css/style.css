@@ -61,7 +61,7 @@ body{
 .profile_pic img{
     border-radius: 50%;
     width: 25%; 
-    margin-top: 10%; 
+    margin-top: 5%; 
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -80,6 +80,76 @@ body{
     text-align: center;
     padding: 0 30%;
 }
+
+.skills h2{
+    color: #74c3df;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0 auto;
+}
+
+.skills hr{
+    height: 13px;
+    background: black;
+    width: 70%
+}
+.skills h3{
+    color: #74c3df;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.skills .web_dev img{
+    border-radius: 50%;
+    width: 20%;
+    padding: 0 auto;
+}
+.skills .bell img{
+    border-radius: 50%;
+    width: 22%;   
+}
+
+
+
+
+
+
+
+
+.get h2{
+    color: #74c3df;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.get h3{
+    color: #74c3df;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+.get p{
+    text-align: center;
+}
+
+
+.socials{
+    background-color: #74c3df;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 1% 20%;
+}
+.socials a{
+    text-decoration: none;
+    color: blue;
+    padding: 0% 8%;
+    margin: 0;
+}
+
+
 
 
 
