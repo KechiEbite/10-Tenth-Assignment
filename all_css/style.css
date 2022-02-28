@@ -90,7 +90,7 @@ body{
     padding: 0 auto;
 }
 
-.skills hr{
+hr{
     height: 13px;
     background: black;
     width: 70%
@@ -105,10 +105,12 @@ body{
     border-radius: 50%;
     width: 20%;
     padding: 0 auto;
+    float: left;
 }
 .skills .bell img{
     border-radius: 50%;
-    width: 22%;   
+    width: 22%;
+    float: right;   
 }
 
 
@@ -117,7 +119,9 @@ body{
 
 
 
-
+.get{
+    margin-top: 5%;
+}
 .get h2{
     color: #74c3df;
     font-size: 30px;
@@ -125,22 +129,34 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .get h3{
-    color: #74c3df;
+    color: #04b6f7;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     
 }
 .get p{
     text-align: center;
+    margin-bottom: 5%;
 }
+button{
+    background-color:#88c054;
+    color: white;
+    border:none;
+    border-radius: 4%;
+    padding: .5% 1%;
+    margin-left: 65%;
+    margin-bottom: 5%;
+    width: 10%;
+    font-size: 16px;
 
+}
 
 .socials{
     background-color: #74c3df;
     width: 100%;
     display: block;
     float: left;
-    padding: 1% 20%;
+    padding: 1% 16%;
 }
 .socials a{
     text-decoration: none;
