@@ -147,11 +147,15 @@ hr{
     width: auto;
     height: auto;
     padding: 0 7%;
+    background-color: ;
 }
 .gallery img{
     width: 360px;
     height: 360px;
 
+}
+.gallery img:hover{
+    transform: translate(2%) scale(1.1);
 }
 
 
@@ -168,10 +172,10 @@ hr{
     font-family: 'Montserrat', sans-serif;
 }
 .get h3{
-    color: #04b6f7;
+    color: #00d2be;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    
+    font-weight: bolder;
 }
 .get p{
     text-align: center;
@@ -208,6 +212,14 @@ hr{
     text-align: center;
     padding: 0 12%;
 }
+
+
+
+
+
+
+
+/*FOR MOBILE DEVICES*/
 @media screen and (max-width:700px) {
     .socials{
         width: 100%;
@@ -216,12 +228,9 @@ hr{
     .socials a{
         padding: 0 25px;
     }
+
+    .gallery img{
+        width:320px;
+        height: 320px;
+    }
 }
-
-
-
-
-
-
-/*FOR MOBILE DEVICES*/
-
