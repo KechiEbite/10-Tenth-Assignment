@@ -146,16 +146,32 @@ hr{
     border: 1px none;
     width: auto;
     height: auto;
-    padding: 0 7%;
-    background-color: ;
+    padding: 4% 7%;
+    background-color: #e5e6eb;
+}
+.gallery h2{
+    color: #8fce00;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 2px;
+
+}
+.gallery hr{
+    width:25%;
+    height:3px;
+    background-color: #74c3df;
+    border: none;
 }
 .gallery img{
     width: 360px;
     height: 360px;
-
 }
 .gallery img:hover{
-    transform: translate(2%) scale(1.1);
+    transform: translateY(1.5%) scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(170,170,170);
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
 }
 
 
@@ -170,6 +186,7 @@ hr{
     font-size: 30px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 .get h3{
     color: #00d2be;
